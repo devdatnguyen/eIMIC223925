@@ -14,6 +14,8 @@ namespace eIMIC2325.Data.Entities
         public string LanguageId { get; set; }
         public string SeoAlias { get; set; }
 
+        public Category Category { get; set; }
+        public Language Language { get; set; }
 
     }
 }
